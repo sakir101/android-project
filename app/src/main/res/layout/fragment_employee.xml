@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+      <EditText
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:hint="Employee ID"
+          android:textSize="25sp"
+          android:id="@+id/text1"/>
+
+      <EditText
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:hint="Employee name"
+          android:textSize="25sp"
+          android:id="@+id/text2"/>
+
+      <EditText
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:hint="Employee age"
+          android:textSize="25sp"
+          android:id="@+id/text3"/>
+
+      <EditText
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:hint="Working Duration"
+          android:textSize="25sp"
+          android:id="@+id/text4"/>
+
+      <Button
+          android:id="@+id/sendButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="Add Employee"
+          android:textSize="25sp" />
+
+   </LinearLayout>
+
+</FrameLayout>
